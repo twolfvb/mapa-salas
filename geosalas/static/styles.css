@@ -1,0 +1,100 @@
+header {
+    width: 40%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+h1 {
+    margin-top: 35px;
+    margin-bottom: 5px;
+    font-size: 40px;
+    cursor: default;
+    letter-spacing: 0.5px;
+}
+
+h2 {
+    margin-bottom: 50px;
+    font-size: 20px;
+    color: #686b69;
+    cursor: default;
+    text-transform: uppercase;
+}
+
+svg {
+    width: 1000px;
+    height: 400px;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 80px;
+    border-radius: 3px;
+    background-color: #eaeaea;
+}
+
+hr {
+    border-color: #eaeaea;
+}
+
+.floor {
+     stroke: #aaaaaa;
+     stroke-width: 1;
+     fill: #cccccc;
+}
+
+.legend {
+    font-size: 22px;
+    font-family: sans-serif;
+    fill: black;
+    stroke: none;
+    text-anchor: middle;
+    cursor: default;
+}
+
+.rooms {
+    cursor: pointer;
+}
+
+.room {
+    stroke: #aaaaaa;
+    stroke-width: 1;
+    fill: #f95a5a;
+}
+
+.room:hover {
+    fill: #d62121;
+}
+
+.room.green {
+    fill: #00EC02;
+}
+
+.room.green:hover {
+    fill: #0cbf0c;
+}
+
+.room.blue {
+    fill: #409bf5;
+}
+
+.room.blue:hover {
+    fill: #1e58bb;
+}
+
+.room.gray {
+    fill: #adadad;
+}
+
+.room.gray:hover {
+    fill: #8e8e8e;
+}
+
+.name {
+    font-size: 14px;
+    font-family: sans-serif;
+    fill: black;
+    stroke: none;
+    text-anchor: middle;
+}
+
+.room:hover .name {
+    font-weight: bold;
+}
