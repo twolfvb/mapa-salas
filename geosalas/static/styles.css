@@ -81,7 +81,7 @@ hr {
 .room {
     stroke: #aaaaaa;
     stroke-width: 1;
-    fill: #f95a5a;
+    fill: #e57373;
 }
 
 .room:hover {
@@ -89,15 +89,15 @@ hr {
 }
 
 .room.green {
-    fill: #00EC02;
+    fill: #00e676;
 }
 
 .room.green:hover {
-    fill: #0cbf0c;
+    fill: #2e7d32;
 }
 
 .room.blue {
-    fill: #409bf5;
+    fill: #64b5f6;
 }
 
 .room.blue:hover {
