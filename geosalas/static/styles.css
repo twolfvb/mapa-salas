@@ -1,7 +1,19 @@
+body {
+    position: relative;
+}
+
 header {
     width: 40%;
     margin: 0 auto;
     text-align: center;
+    position: relative;
+}
+
+.logo img {
+    position: absolute;
+    width: 100px;
+    top: -10px;
+    left: -30%;
 }
 
 h1 {
@@ -21,13 +33,26 @@ h2 {
 }
 
 svg {
-    width: 1000px;
-    height: 400px;
     display: block;
     margin: 0 auto;
     margin-bottom: 80px;
     border-radius: 3px;
     background-color: #eaeaea;
+}
+
+#new-2-floor-851 {
+    width: 1000px;
+    height: 400px;
+}
+
+#new-3-floor-851 {
+    width: 1000px;
+    height: 400px;
+}
+
+#old-3-floor-851 {
+    width: 1000px;
+    height: 430px;
 }
 
 hr {

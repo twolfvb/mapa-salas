@@ -5,12 +5,18 @@
         <title>Salas DCC</title>
         <meta name="author" content="Harambe Team Reloaded">
         <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes" />
+        <link rel="icon" href="../static/favicon.ico" type="image/x-icon">
 
         <link rel="stylesheet" type="text/css" href="../static/styles.css">
+        <link rel="stylesheet" href="../static/font-awesome/css/font-awesome.min.css">
     </head>
 
     <body>
         <header>
+            <a href="/" class="logo">
+				<img src="../static/images/dcc-map.png" alt="">
+			</a>
+
             <h1>Salas DCC</h1>
             <h2>No te pierdas nunca más!</h2>
         </header>
@@ -20,7 +26,7 @@
         <header>
             <h2>Piso 2 - 851 Edificio Poniente</h2>
         </header>
-        <svg>
+        <svg id="new-2-floor-851">
             <path class="floor" d="M50 48 L960 98 L960 350 L50 350 Z" />
 
             <g class="title">
@@ -66,7 +72,7 @@
                 </g>
                 <g class="room">
                     <path d="M450 350 L450 250 L500 250 L500 350 Z" />
-                    <text class="name" x="460" y="300" dx="25" writing-mode="tb">Los Emojis</text>
+                    <text class="name" x="460" y="300" dx="25" writing-mode="tb">💻+😴 +☕+🐦=📉</text>
                     <text class="name" x="440" y="300" dx="25" writing-mode="tb">215</text>
                 </g>
                 <g class="room">
@@ -102,12 +108,13 @@
 
                 <g class="room">
                     <path d="M800 350 L800 250 L885 250 L885 300 L900 300 L900 350 Z" />
-                    <text class="name" x="825" y="290" dx="25">Reunión</text>
-                    <text class="name" x="825" y="320" dx="25">34</text>
+                    <text class="name" x="825" y="285" dx="25">Sala</text>
+                    <text class="name" x="825" y="300" dx="25">Reunión</text>
+                    <text class="name" x="825" y="320" dx="25">208</text>
                 </g>
                 <g class="room blue">
                     <path d="M885 300 L915 300 L915 200 L885 200 Z" />
-                    <text class="name" x="875" y="255" dx="25" writing-mode="tb">Cocina 35</text>
+                    <text class="name" x="875" y="255" dx="25" writing-mode="tb">Cocina</text>
                 </g>
 
                 <g class="room">
@@ -142,14 +149,13 @@
                 </g>
             </g>
         </svg>
-        <p></p>
         
         <hr />
 
         <header>
             <h2>Piso 3 - 851 Edificio Poniente</h2>
         </header>
-        <svg>
+        <svg id="new-3-floor-851">
             <path class="floor" d="M50 48 L960 98 L960 350 L50 350 Z" />
 
             <g class="title">
@@ -231,12 +237,13 @@
 
                 <g class="room">
                     <path d="M800 350 L800 250 L885 250 L885 300 L900 300 L900 350 Z" />
-                    <text class="name" x="825" y="290" dx="25">Sala Sistemas</text>
+                    <text class="name" x="825" y="285" dx="25">Sala</text>
+                    <text class="name" x="825" y="300" dx="25">Sistemas</text>
                     <text class="name" x="825" y="320" dx="25">309</text>
                 </g>
                 <g class="room blue">
                     <path d="M885 300 L915 300 L915 200 L885 200 Z" />
-                    <text class="name" x="875" y="255" dx="25" writing-mode="tb">Cocina 36</text>
+                    <text class="name" x="875" y="255" dx="25" writing-mode="tb">Cocina</text>
                 </g>
 
                 <g class="room">
@@ -281,6 +288,223 @@
                     <text class="name" x="125" y="100" dx="25">Laboratorio</text>
                     <text class="name" x="125" y="115" dx="25">Eniac</text>
                     <text class="name" x="125" y="140" dx="25">301</text>
+                </g>
+            </g>
+        </svg>
+        
+        <hr />
+
+        <header>
+            <h2>Piso 3 - 851 Old DCC</h2>
+        </header>
+        <svg id="old-3-floor-851">
+            <path class="floor" d="M50 50 L950 50 L950 380 L50 380 Z" />
+
+            <g class="title">
+                <text class="legend" x="775" y="35" dx="25">Piso 3 - 851 Old DCC</text>
+            </g>
+
+            <g class="rooms">
+                <g class="room">
+                    <path d="M50 125 L50 50 L100 50 L100 125 Z" />
+                    <text class="name" x="60" y="92" dx="25" writing-mode="tb">Académico</text>
+                    <text class="name" x="40" y="92" dx="25" writing-mode="tb">1</text>
+                </g>
+                <g class="room">
+                    <path d="M100 125 L100 50 L150 50 L150 125 Z" />
+                    <text class="name" x="110" y="92" dx="25" writing-mode="tb">Académico</text>
+                    <text class="name" x="90" y="92" dx="25" writing-mode="tb">2</text>
+                </g>
+                <g class="room">
+                    <path d="M150 125 L150 50 L200 50 L200 125 Z" />
+                    <text class="name" x="160" y="92" dx="25" writing-mode="tb">Académico</text>
+                    <text class="name" x="140" y="92" dx="25" writing-mode="tb">3</text>
+                </g>
+                <g class="room">
+                    <path d="M200 125 L200 50 L250 50 L250 125 Z" />
+                    <text class="name" x="210" y="92" dx="25" writing-mode="tb">Académico</text>
+                    <text class="name" x="190" y="92" dx="25" writing-mode="tb">4</text>
+                </g>
+                <g class="room">
+                    <path d="M250 125 L250 50 L300 50 L300 125 Z" />
+                    <text class="name" x="260" y="92" dx="25" writing-mode="tb">Académico</text>
+                    <text class="name" x="240" y="92" dx="25" writing-mode="tb">5</text>
+                </g>
+                <g class="room">
+                    <path d="M300 125 L300 50 L350 50 L350 125 Z" />
+                    <text class="name" x="310" y="92" dx="25" writing-mode="tb">Académico</text>
+                    <text class="name" x="290" y="92" dx="25" writing-mode="tb">6</text>
+                </g>
+                <g class="room">
+                    <path d="M350 125 L350 50 L400 50 L400 125 Z" />
+                    <text class="name" x="360" y="92" dx="25" writing-mode="tb">Académico</text>
+                    <text class="name" x="340" y="92" dx="25" writing-mode="tb">7</text>
+                </g>
+                <g class="room">
+                    <path d="M400 125 L400 50 L450 50 L450 125 Z" />
+                    <text class="name" x="410" y="92" dx="25" writing-mode="tb">Académico</text>
+                    <text class="name" x="390" y="92" dx="25" writing-mode="tb">8</text>
+                </g>
+                <g class="room">
+                    <path d="M450 125 L450 50 L500 50 L500 125 Z" />
+                    <text class="name" x="460" y="92" dx="25" writing-mode="tb">Académico</text>
+                    <text class="name" x="440" y="92" dx="25" writing-mode="tb">9</text>
+                </g>
+                <g class="room">
+                    <path d="M500 125 L500 50 L550 50 L550 125 Z" />
+                    <text class="name" x="510" y="92" dx="25" writing-mode="tb">Académico</text>
+                    <text class="name" x="490" y="92" dx="25" writing-mode="tb">10</text>
+                </g>
+                <g class="room">
+                    <path d="M550 125 L550 50 L600 50 L600 125 Z" />
+                    <text class="name" x="560" y="92" dx="25" writing-mode="tb">Académico</text>
+                    <text class="name" x="540" y="92" dx="25" writing-mode="tb">11</text>
+                </g>
+                <g class="room">
+                    <path d="M600 125 L600 50 L650 50 L650 125 Z" />
+                    <text class="name" x="610" y="92" dx="25" writing-mode="tb">Académico</text>
+                    <text class="name" x="590" y="92" dx="25" writing-mode="tb">12</text>
+                </g>
+                <g class="room">
+                    <path d="M650 125 L650 50 L700 50 L700 125 Z" />
+                    <text class="name" x="660" y="92" dx="25" writing-mode="tb">Académico</text>
+                    <text class="name" x="640" y="92" dx="25" writing-mode="tb">13</text>
+                </g>
+                <g class="room">
+                    <path d="M700 125 L700 50 L750 50 L750 125 Z" />
+                    <text class="name" x="710" y="92" dx="25" writing-mode="tb">Académico</text>
+                    <text class="name" x="690" y="92" dx="25" writing-mode="tb">14</text>
+                </g>
+                <g class="room">
+                    <path d="M750 125 L750 50 L800 50 L800 125 Z" />
+                    <text class="name" x="760" y="92" dx="25" writing-mode="tb">Académico</text>
+                    <text class="name" x="740" y="92" dx="25" writing-mode="tb">15</text>
+                </g>
+                <g class="room">
+                    <path d="M800 125 L800 50 L850 50 L850 125 Z" />
+                    <text class="name" x="810" y="92" dx="25" writing-mode="tb">Académico</text>
+                    <text class="name" x="790" y="92" dx="25" writing-mode="tb">16</text>
+                </g>
+                <g class="room">
+                    <path d="M850 125 L850 50 L900 50 L900 125 Z" />
+                    <text class="name" x="860" y="92" dx="25" writing-mode="tb">Académico</text>
+                    <text class="name" x="840" y="92" dx="25" writing-mode="tb">17</text>
+                </g>
+                <g class="room">
+                    <path d="M900 125 L900 50 L950 50 L950 125 Z" />
+                    <text class="name" x="910" y="92" dx="25" writing-mode="tb">Académico</text>
+                    <text class="name" x="890" y="92" dx="25" writing-mode="tb">18</text>
+                </g>
+            </g>
+
+            <g class="rooms">
+                <g class="room green">
+                    <path d="M50 280 L50 150 L200 150 L160 280 Z" />
+                    <!-- <text class="name" x="60" y="300" dx="25" writing-mode="tb">Académico</text>
+                    <text class="name" x="40" y="300" dx="25" writing-mode="tb">1</text> -->
+                </g>
+                <g class="room green">
+                    <path d="M650 280 L650 150 L300 150 L260 280 Z" />
+                    <!-- <text class="name" x="60" y="300" dx="25" writing-mode="tb">Académico</text>
+                    <text class="name" x="40" y="300" dx="25" writing-mode="tb">1</text> -->
+                </g>
+                <g class="room green">
+                    <path d="M750 280 L750 150 L950 150 L950 280 Z" />
+                    <!-- <text class="name" x="60" y="300" dx="25" writing-mode="tb">Académico</text>
+                    <text class="name" x="40" y="300" dx="25" writing-mode="tb">1</text> -->
+                </g>
+            </g>
+
+            <g class="rooms">
+                <g class="room">
+                    <path d="M50 380 L50 305 L100 305 L100 380 Z" />
+                    <text class="name" x="60" y="348" dx="25" writing-mode="tb">Académico</text>
+                    <text class="name" x="40" y="348" dx="25" writing-mode="tb">1</text>
+                </g>
+                <g class="room">
+                    <path d="M100 380 L100 305 L150 305 L150 380 Z" />
+                    <text class="name" x="110" y="348" dx="25" writing-mode="tb">Académico</text>
+                    <text class="name" x="90" y="348" dx="25" writing-mode="tb">2</text>
+                </g>
+                <g class="room">
+                    <path d="M150 380 L150 305 L200 305 L200 380 Z" />
+                    <text class="name" x="160" y="348" dx="25" writing-mode="tb">Académico</text>
+                    <text class="name" x="140" y="348" dx="25" writing-mode="tb">3</text>
+                </g>
+                <g class="room">
+                    <path d="M200 380 L200 305 L250 305 L250 380 Z" />
+                    <text class="name" x="210" y="348" dx="25" writing-mode="tb">Académico</text>
+                    <text class="name" x="190" y="348" dx="25" writing-mode="tb">4</text>
+                </g>
+                <g class="room">
+                    <path d="M250 380 L250 305 L300 305 L300 380 Z" />
+                    <text class="name" x="260" y="348" dx="25" writing-mode="tb">Académico</text>
+                    <text class="name" x="240" y="348" dx="25" writing-mode="tb">5</text>
+                </g>
+                <g class="room">
+                    <path d="M300 380 L300 305 L350 305 L350 380 Z" />
+                    <text class="name" x="310" y="348" dx="25" writing-mode="tb">Académico</text>
+                    <text class="name" x="290" y="348" dx="25" writing-mode="tb">6</text>
+                </g>
+                <g class="room">
+                    <path d="M350 380 L350 305 L400 305 L400 380 Z" />
+                    <text class="name" x="360" y="348" dx="25" writing-mode="tb">Académico</text>
+                    <text class="name" x="340" y="348" dx="25" writing-mode="tb">7</text>
+                </g>
+                <g class="room">
+                    <path d="M400 380 L400 305 L450 305 L450 380 Z" />
+                    <text class="name" x="410" y="348" dx="25" writing-mode="tb">Académico</text>
+                    <text class="name" x="390" y="348" dx="25" writing-mode="tb">8</text>
+                </g>
+                <g class="room">
+                    <path d="M450 380 L450 305 L500 305 L500 380 Z" />
+                    <text class="name" x="460" y="348" dx="25" writing-mode="tb">Académico</text>
+                    <text class="name" x="440" y="348" dx="25" writing-mode="tb">9</text>
+                </g>
+                <g class="room">
+                    <path d="M500 380 L500 305 L550 305 L550 380 Z" />
+                    <text class="name" x="510" y="348" dx="25" writing-mode="tb">Académico</text>
+                    <text class="name" x="490" y="348" dx="25" writing-mode="tb">10</text>
+                </g>
+                <g class="room">
+                    <path d="M550 380 L550 305 L600 305 L600 380 Z" />
+                    <text class="name" x="560" y="348" dx="25" writing-mode="tb">Académico</text>
+                    <text class="name" x="540" y="348" dx="25" writing-mode="tb">11</text>
+                </g>
+                <g class="room">
+                    <path d="M600 380 L600 305 L650 305 L650 380 Z" />
+                    <text class="name" x="610" y="348" dx="25" writing-mode="tb">Académico</text>
+                    <text class="name" x="590" y="348" dx="25" writing-mode="tb">12</text>
+                </g>
+                <g class="room">
+                    <path d="M650 380 L650 305 L700 305 L700 380 Z" />
+                    <text class="name" x="660" y="348" dx="25" writing-mode="tb">Académico</text>
+                    <text class="name" x="640" y="348" dx="25" writing-mode="tb">13</text>
+                </g>
+                <g class="room">
+                    <path d="M700 380 L700 305 L750 305 L750 380 Z" />
+                    <text class="name" x="710" y="348" dx="25" writing-mode="tb">Académico</text>
+                    <text class="name" x="690" y="348" dx="25" writing-mode="tb">14</text>
+                </g>
+                <g class="room">
+                    <path d="M750 380 L750 305 L800 305 L800 380 Z" />
+                    <text class="name" x="760" y="348" dx="25" writing-mode="tb">Académico</text>
+                    <text class="name" x="740" y="348" dx="25" writing-mode="tb">15</text>
+                </g>
+                <g class="room">
+                    <path d="M800 380 L800 305 L850 305 L850 380 Z" />
+                    <text class="name" x="810" y="348" dx="25" writing-mode="tb">Académico</text>
+                    <text class="name" x="790" y="348" dx="25" writing-mode="tb">16</text>
+                </g>
+                <g class="room">
+                    <path d="M850 380 L850 305 L900 305 L900 380 Z" />
+                    <text class="name" x="860" y="348" dx="25" writing-mode="tb">Académico</text>
+                    <text class="name" x="840" y="348" dx="25" writing-mode="tb">17</text>
+                </g>
+                <g class="room">
+                    <path d="M900 380 L900 305 L950 305 L950 380 Z" />
+                    <text class="name" x="910" y="348" dx="25" writing-mode="tb">Académico</text>
+                    <text class="name" x="890" y="348" dx="25" writing-mode="tb">18</text>
                 </g>
             </g>
         </svg>
